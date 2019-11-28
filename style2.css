@@ -1,0 +1,407 @@
+
+
+
+.body {font-family: 'Open Sans'; margin: 0px; padding: 0px; }
+
+.top-header {
+    height: 40px;
+    background-color: #303030;
+    
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6vw;
+    padding-left: 6vw;
+    background-color: #f2f2f2;
+  }
+
+  .header-left {
+    margin-left: 0px;
+  }
+  .header-center {
+    margin-left: 0px;
+    display: inline-flex;
+
+
+  }
+  .header-right{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchText { 
+    width: 30vw;   
+    border: solid 1px #d8d8d8;
+    background-color: white;
+    vertical-align: middle;
+    padding: 0px 17px 0px 17px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .search-button {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #d8d8d8;
+    background-color: #87c638;
+    vertical-align: middle;
+    border-radius: 0px 10px 10px 0px;
+    
+  }
+
+  .bg {
+    width: 200px;
+    height: 40px;
+    background-color: #ac0a0c;
+    display: inline-block;
+  }
+
+  .center{
+      margin: auto;
+      width: 80%;
+     
+  }
+
+  .phone-24px {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin: 12px 0px 12px 13px;
+    vertical-align: middle;
+  }
+
+  .Call-Us {
+    width: 42px;
+    height: 17px;
+   
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    margin: 12px 0px 11px 12px;
+    vertical-align: middle;
+  }
+
+  .phoneNumber{
+    width: 75px;
+    height: 17px;
+   
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    text-decoration: underline;
+    
+  }
+
+  .store-24px {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin: 9px 0px 7px 12px;
+  }
+
+  .Our-Stores {
+  
+   
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    margin: 13px 0px 10px 8px;
+  }
+
+  .Header-bg {
+    height: 90px;
+    background-color: #f2f2f2;
+  }
+
+  .inlineBlock {
+    display: inline-block;
+  }
+
+  .Logo {
+    
+    object-fit: contain;
+    vertical-align: middle;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    
+  }
+
+ 
+
+ 
+
+  ::-webkit-input-placeholder { /* Edge */
+    font-family: 'Open Sans';
+    opacity: 0.4;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.91;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Open Sans';
+    opacity: 0.4;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.91;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  
+  ::placeholder {
+    font-family: 'Open Sans';
+    opacity: 0.4;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.91;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+
+  .search-24px {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    
+    
+  }
+
+  .shopping_cart-24px {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin: 33px 0px 33px 100px;
+    vertical-align: middle;
+    float: right;
+    
+   
+  }
+
+  .chart-text {
+    
+   
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    float: right;
+    vertical-align: middle;
+    margin: 36px 0px 35px 6px;
+    padding-bottom: 7px;
+ 
+  }
+
+  .menuContainer {
+    display: flex;
+    height: 6vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 9vw;
+    margin-right: 6vw;
+    padding-top: 6px;
+  }
+
+  .borderLine {
+ 
+  }
+  .menuItem {
+    
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  
+  .menuItem a{
+      text-decoration: none;
+      color: black;
+      
+  }
+  
+
+  .Tab1 {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    vertical-align: middle;
+    
+    
+  }
+
+
+
+  .inlineGrid {
+
+    display: inline-grid;
+  }
+
+
+
+  .Tab2 {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    vertical-align: middle;
+   
+  }
+
+
+
+
+  .Ellipse-3 {
+    width: 39px;
+    height: 39px;
+    background-color: #ff0044;
+    border-radius: 100px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+
+  }
+  .-OFF {
+   
+   
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: center;
+    
+    vertical-align: middle;
+    color: white;
+  }
+
+  .Tab3 {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+   
+  }
+
+
+
+
+  .Tab4 {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+   
+  }
+
+
+
+
+  .subMenu-container {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    padding-top: 53px;
+    
+  }
+
+  .subMenu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    
+  }
+  .subMenu-item-left {
+ 
+
+  }
+
+  .subMenu-item-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+  }
+
+  .subMenu-item-text {
+    width: 167px;
+    height: 39px;
+    opacity: 0.6;
+   
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: left;
+    color: #494949;
+    
+  }
+  .subMenu-item-detail-text {
+    width: 52px;
+   
+    font-size: 10px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.1;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #92c83e;
+    
+    
+  }
+  .subMenu-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+
